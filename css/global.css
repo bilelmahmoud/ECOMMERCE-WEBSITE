@@ -1,6 +1,8 @@
 :root{
     --bodyBG: #f6f6f6;
     --bodyFont: #2b3445;
+    --blue: #9fc5ef;
+    --icons:#40464d;
 }
 
 .dark{
@@ -76,6 +78,7 @@ HTML elements
 a, button {
     all: unset;
     display: inline-block;
+    transition: 0.3s;
   }
 
 button:active, a:active{
@@ -83,9 +86,13 @@ button:active, a:active{
 }
 
 button:hover, a:hover{
-    scale: 0.9;
+    cursor: pointer;
 }
 
 li{
     list-style: none;
+}
+
+.fa-solid{
+    color: var(--icons);
 }
