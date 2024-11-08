@@ -1,0 +1,56 @@
+div.top-img{
+    position: relative;
+    background-image: url(../../img/bac.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section.content{
+    font-size: 2rem;
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+    margin-left: 10%;
+& .lifestyle{
+    text-transform: uppercase;
+}
+& .men{
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 0.7rem;
+    
+}
+
+& .sale{
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-block: 0.5rem;
+}
+
+& .sale span{
+    color: crimson;
+    margin-left: 0.8rem;
+}
+
+& .free-shipping{
+   font-size: 1.5rem;
+}
+
+& button{
+    background-color: black;
+    padding: 0.6rem 1.6rem;
+    color: white;
+    font-size: 0.9rem;
+    border-radius: 3px;
+    margin-top: 0.9rem;
+}
+
+}
+
+
+@media (width < 1000px) {
+    div.top-img{
+        background-position: left;
+    }
+}
