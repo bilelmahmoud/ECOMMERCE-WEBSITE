@@ -2,6 +2,7 @@
     --bodyBG: #f6f6f6;
     --bodyFont: #2b3445;
     --blue: #9fc5ef;
+    --blue-button: #1976d2;
     --icons:#40464d;
 }
 
@@ -69,7 +70,16 @@ html{
     background: #555;
   }
  
+main {
+  width: 80% ;
+  margin-inline: auto;
+}
 
+@media (width < 600px) {
+  main{
+    width: 100% ;
+  }
+}
 
 /*===============
 HTML elements
