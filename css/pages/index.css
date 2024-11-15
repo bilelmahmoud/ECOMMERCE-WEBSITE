@@ -1,10 +1,18 @@
+/*====================
+Background Image 
+======================*/
 div.top-img{
     position: relative;
     background-image: url(../../img/bac.jpg);
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
+
+/*====================
+Text on Image 
+======================*/
 
 section.content{
     font-size: 2rem;
@@ -59,6 +67,7 @@ main h1.recommended {
     main h1.recommended {
         margin: 2.3rem 0 2rem 0;
         font-size: 1.4rem;
+        text-align: center;
     }
   }
 
@@ -129,5 +138,11 @@ main section.prodctus.flex{
 @media (width < 1000px) {
     div.top-img{
         background-position: left;
+    }
+}
+
+@media (width < 600px) {
+    main section.prodctus.flex{
+        justify-content: center;
     }
 }
