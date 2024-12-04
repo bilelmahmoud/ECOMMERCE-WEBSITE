@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>signin</title>
+    <title>register</title>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/global.css">
@@ -37,11 +37,11 @@
                 0.00$
                 <span class="products-number">2</span>
             </a>
-            <a href="../pages/signin.html" class="sign-in border">
+            <a href="../pages/signin.html" class="sign-in">
                 <i class="fa-solid fa-right-to-bracket"></i>
                 Sign in
             </a>
-            <a  href="../pages/register.html" class="register">
+            <a  href="#" class="register border">
                 <i class="fa-solid fa-user-plus"></i>
                 Register
             </a>
@@ -49,6 +49,10 @@
     </header> 
     <main class="px-3">
         <form style="text-align: left;">
+            <div class="mb-4">
+                <label for="Username" class="form-label">Username</label>
+                <input type="email" class="form-control" id="Username" aria-describedby="emailHelp">
+              </div>
             <div class="mb-4">
               <label for="exampleInputEmail1" class="form-label">Email address</label>
               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -61,7 +65,7 @@
               <input type="checkbox" class="form-check-input" id="exampleCheck1">
               <label class="form-check-label" for="exampleCheck1">Check me out</label>
             </div>
-            <button type="submit" class="btn btn-primary">Sign in</button>
+            <button type="submit" class="btn btn-primary">Create Account</button>
         </form>
     </main>
     <footer class="lead">
