@@ -66,6 +66,8 @@ header.flex{
 }
 
 
+
+
 }
 
     @media (width < 600px){
@@ -88,5 +90,31 @@ header.flex{
     }
 
   
+}
+
+
+/* =====================================
+When scroll down on the home page 
+=======================================*/
+.scroll-down{
+    position: fixed;
+    right: 0;
+    left: 0;
+    padding-bottom: 0.5rem;
+    background-color: var(--footer-bg);
+    color: #fff;
+    z-index: 11;
+
+    & .fa-bag-shopping,
+    & .fa-user-plus,
+    & .fa-right-to-bracket{
+        color: #fff;
+    }
+    & .logo{
+       font-size:  0.8rem;
+    }
+    & .logo .fa-bag-shopping{
+        font-size: 0.6rem;
+    }
 }
 
